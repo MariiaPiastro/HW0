@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+    <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/hobbyTitle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="20sp"
+            android:textColor="#6A1B9A"
+            android:textStyle="bold|italic"
+    />
+
+    <ImageView
+            android:id="@+id/hobbyImage"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="@string/content_description_hobby_image"
+    />
+
+</LinearLayout>
